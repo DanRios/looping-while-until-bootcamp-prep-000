@@ -1,6 +1,16 @@
 require_relative "spec_helper"
 require_relative "../lib/while.rb"
 
+def using_while
+	counter = 0
+	while counter < 10
+		couter += 1
+		puts "Wingardium Leviosa"
+	end
+end
+
+	
+
 describe "#using_while" do 
 	it "puts out the phrase 'Wingardium Leviosa' while the levitation force is incremented to 10" do 
 	looping_string = "Wingardium Leviosa\nWingardium Leviosa\nWingardium Leviosa\nWingardium Leviosa\n"
